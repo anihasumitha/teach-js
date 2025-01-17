@@ -30,7 +30,7 @@ teach-js/
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/joboa/teach-js.git
+   git clone https://github.com/Joboa/teach-js.git
    cd teach-js
    ```
 
