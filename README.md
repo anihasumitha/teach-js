@@ -13,13 +13,13 @@ Each folder in this repository represents a module. Below is the structure of a 
 
 ```
 teach-js/
-├── module_1.js       # Teaching file 
-├── exercise.js       # Student solution file
+├── module_1.js       // Teaching file 
+├── exercise.js       // Student solution file
 ├── test/
-│   └── exercise.test.js  # Test file with expected outputs
-├── index.html        # HTML file for testing in the browser
-├── package.json      # Node.js project file for dependencies and scripts
-└── README.md         # Instructions
+│   └── exercise.test.js  // Test file with expected outputs
+├── index.html        // HTML file for testing in the browser
+├── package.json      // Node.js project file for dependencies and scripts
+└── README.md         // Instructions
 
 ```
 
@@ -54,8 +54,12 @@ teach-js/
 Follow the steps below to check your solution
 ```bash
    cd module_1/
-   npm test
-   ```
+   npm test // Run test for all exercises
+
+   Or
+
+   npm test -- teach-js/module_1/test  // Runs test for only module_1
+   ``` 
 
 ### CAUTION: 
 Do not modify any script in `test/` folder
