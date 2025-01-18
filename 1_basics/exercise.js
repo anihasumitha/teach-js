@@ -8,3 +8,19 @@ HINT: name = "John" ->
 
 2. Make changes to step 1 to log the length of the name
 */
+
+function personalizedHello() {
+    // Your code here
+    const name = prompt("What is your name?");
+    
+    // Do not touch code below
+    if (name) {
+        // Your code here
+        alert(`Hello, ${name}!`);
+        console.log(`The length of the name is ${name.length}`);
+    } // Do not touch code below
+    else {
+        alert("No name provided!");
+    }
+}
+module.exports = {personalizedHello}
