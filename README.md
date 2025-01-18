@@ -13,15 +13,14 @@ Each folder in this repository represents a module. Below is the structure of a 
 
 ```
 teach-js/
-  ├── module_1/
-  │   ├── module_1.js         # Teaching file with examples
-  │   ├── exercise.js         # Exercise file for practice
-  │   └── index.html          # HTML file to run the JavaScript code
-  ├── module_2/
-  │   ├── module_2.js        
-  │   ├── exercise.js        
-  │   └── index.html         
-  └── ...
+├── module_1.js       # Teaching file 
+├── exercise.js       # Student solution file
+├── test/
+│   └── exercise.test.js  # Test file with expected outputs
+├── index.html        # HTML file for testing in the browser
+├── package.json      # Node.js project file for dependencies and scripts
+└── README.md         # Instructions
+
 ```
 
 ---
@@ -47,10 +46,18 @@ teach-js/
    - Start with `module_number.js` to learn the concept.  
    - Open `exercise.js` to practice.  
 
----
-
-## Example  
-
-For **Module 1**, open `index.html` in your browser. You’ll see the output of the examples from `module_1.js` and can test your solutions from `exercise.js`.  
+5. **Refer to Exercise section to do the exercise**
 
 ---
+
+## Exercise 
+Follow the steps below to check your solution
+```bash
+   cd module_1/
+   npm test
+   ```
+
+### CAUTION: 
+Do not modify any script in `test/` folder
+
+ 
