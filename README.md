@@ -61,7 +61,10 @@ Follow the steps below to check your solution
    npm test -- teach-js/module_1/test  // Runs test for only module_1
    ``` 
 
-### CAUTION: 
+### Caution 
 Do not modify any script in `test/` folder
+
+## Reference Book
+Learn to code with javascript by Darren Jones
 
  
