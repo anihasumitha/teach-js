@@ -121,6 +121,4 @@
 
 // a favourite animal quiz
 
-// switch statements
-
 // a rock paper scissors game
