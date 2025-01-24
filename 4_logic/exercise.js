@@ -6,6 +6,7 @@ the number, and for the multiples of five, print "Buzz".
 For numbers which are multiples of both three and five, 
 print "FizzBuzz".
 
+
 Question 2:
 Write a program that determines if it's a good day for a picnic based on the following conditions:
 1. If it's raining, it's not a good day for a picnic.
